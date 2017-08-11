@@ -1,0 +1,117 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color: #4e4e4e;
+}
+a:hover { text-decoration: none }
+.section_padding{
+    padding: 80px 0px;
+}
+
+
+
+.section_title{
+    padding-bottom: 50px;
+}
+.section_title h2{
+    font-size: 32px;
+    color: #1d1d1d;
+    position: relative;
+    padding-bottom: 15px;
+}
+.section_title h2:before, .section_title h2:after{
+    position: absolute;
+    content: "";
+    background: #1d1d1d;
+    bottom: 0;
+    left: 50%;
+    width: 50px;
+    margin-left: -25px;
+    height: 2px;
+}
+.section_title h2:after{
+    background: #ff8e17;
+    width: 20px;
+    margin-left: -10px;
+}
+.section_title p{
+    font-size: 17px;
+}
+.blog_box_bg1{background-image: url(img/bg1.jpg)}
+.blog_box_bg2{background-image: url(img/bg1.jpg)}
+.blog_box_bg3{background-image: url(img/bg1.jpg)}
+
+.blog_box_bg {
+  background-color: hsl(0, 0%, 87%);
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+    border: 1px solid #ff8e17;
+    border-bottom: none;
+}
+.blog_meta{
+    
+}
+.blog_meta a{ 
+    padding-right: 10px;
+    color: #1d1d1d;
+    font-size: 12px;
+}
+.blog_meta i{
+    padding-right: 5px;
+    color: #ff8e17;
+}
+.blog_box_content{
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+    transition: .5s;
+}
+.single_blog_box:hover .blog_box_content{
+    border: 1px solid #ff8e17;
+}
+.blog_box_content h3{
+    font-size: 17px;
+}
+.blog_box_content p{
+    font-size: 14px;
+}
+.blog_box_btn {
+  background: hsl(31, 100%, 55%) none repeat scroll 0 0;
+  border-radius: 4px;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 7px 12px;
+    transition: .5s;
+}
+.blog_box_btn:hover{
+    background: #1d1d1d;
+    color: #fff;
+}
